@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="left-container">
+        <h2>Hello, I'am <span>Sushant Kumar</span></h2>
+        <hr />
+        <p>
+          A freshly graduated IT engineer from India passionate in Full Stack
+          Web development with specialization in frontend with some best in th
+          world technologies. Did a training on Internet of things from college
+          itself, after graduation did certification from internshala on web
+          development. Now currently persuing full Stack web development course
+          from geekster.
+        </p>
+        <ul>
+          <li>FrontEnd - Technologies</li>
+          <li>BackEnd Technologies</li>
+          <li>DevOps</li>
+          <li>Databases</li>
+        </ul>
+      </div>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide intro"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1581093804475-577d72e38aa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1581092157699-83c90752400a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <div class="projects">
+      <h2>Projects</h2>
+      <hr />
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="col">
+            Weather-App ->
+            <a href="https://github.com/sushant312000/Weather-App"
+              >Github Link</a
+            >
+          </div>
+          <div class="col">
+            Dice Game ->
+            <a href="https://github.com/sushant312000/Dice-Game">Github Link</a>
+          </div>
+          <div class="col">
+            Data Structures and Algorithm Practice ->
+            <a
+              href="https://github.com/sushant312000/Data-Structures-And-Algorithms"
+              >Github Link</a
+            >
+          </div>
+          <div class="col">
+            Responsive Website ->
+            <a href="https://github.com/sushant312000/Reponsive-website"
+              >Github Link</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Blogs">
+      <h2>BlogPosts</h2>
+      <hr />
+      <div class="cards">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <h2>FeedBack</h2>
+      <hr />
+      <form action="">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Enter Your Name"
+          />
+          <label for="exampleFormControlInput1" class="form-label">Date</label>
+          <input
+            type="date"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Enter Your Name"
+          />
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Feedback title</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea
+          ><label for="exampleFormControlTextarea1" class="form-label"
+            >Message Box</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+          <div class="form-check">
+            <p>Select Gender</p>
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
+              Male
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+            />
+            <label class="form-check-label" for="flexRadioDefault2">
+              Female
+            </label>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
